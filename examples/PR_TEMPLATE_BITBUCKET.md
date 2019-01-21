@@ -1,6 +1,7 @@
 # Problem this pull request is addressing. What's this PR do?
 
 ## PR Type. What kind of change does this PR introduce?
+<!-- Please check the one that applies to this PR using "x". -->
 - [ ] Bugfix
 - [ ] Feature
 - [ ] GA/GTM
