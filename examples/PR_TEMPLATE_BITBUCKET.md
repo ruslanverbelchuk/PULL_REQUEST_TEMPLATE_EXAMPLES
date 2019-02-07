@@ -69,6 +69,16 @@
 
 ## What are the relevant tickets?
 
+# Deployment process
+- [ ] Modify DB: uiconfig table
+- [ ] Modify DB: splashscreenconfig table
+- [ ] Source Code changes
+- [ ] Optimizly changes
+- [ ] GTM/GA changes
+- [ ] 3rd paty dependencies
+- [ ] Other
+
 # Has experimentation been documented for this project for SR&ED?
 - [ ] Yes (if Yes, describe experiments)
 - [ ] No
+
