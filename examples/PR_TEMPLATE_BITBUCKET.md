@@ -1,5 +1,7 @@
 # Problem this pull request is addressing. What's this PR do?
 
+## Steps to Reproduce
+
 ## PR Type. What kind of change does this PR introduce?
 <!-- Please check the one that applies to this PR using "x". -->
 - [ ] Bugfix
@@ -12,6 +14,13 @@
 - [ ] Documentation content changes
 - [ ] react application / infrastructure changes
 - [ ] Other... Please describe:
+
+## Environment
+Build Number:
+- [ ] Dev
+- [ ] Staging
+- [ ] UAT
+- [ ] Production
 
 ## Where should the reviewer start? (Optional)
 
@@ -48,17 +57,18 @@
 - [ ] Does the [knowledge base] need to be updated?
 - [ ] Does this add new dependencies?
 - [ ] Will this feature require a new piece of infrastructure be implemented?
-- [ ] Does this PR require new Mixpanel or GA events?
+- [ ] Does this PR require new GA events?
 - [ ] Is there appropriate logging included?
 
 ## This PR has been tested in the following browsers:
-- [ ] Edge
+- [ ] Edge (79+)
 - [ ] IE 11 (Windows 10)
-- [ ] IE 11 (Windows 8)
-- [ ] IE 10 (Windows 8)
-- [ ] Chrome
-- [ ] Firefox
-- [ ] Safari
+- [ ] Opera (30+)
+- [ ] Chrome (43+)
+- [ ] Firefox (32+)
+- [ ] Safari (9+)
+- [ ] iOS (9+)
+- [ ] Android (5+)
 - [ ] iOS Safari (newer iOS) __________ iOS version
 - [ ] iOS Chrome (newer iOS) __________ iOS version
 - [ ] Android Chrome (newer Android) __________ Android version
@@ -70,10 +80,9 @@
 ## What are the relevant tickets?
 
 # Deployment process
-- [ ] Modify DB: uiconfig table
-- [ ] Modify DB: splashscreenconfig table
+- [ ] Modify DB: 
+- [ ] Modify Node.JS: 
 - [ ] Source Code changes
-- [ ] Optimizly changes
 - [ ] GTM/GA changes
 - [ ] 3rd paty dependencies
 - [ ] Other
@@ -81,4 +90,3 @@
 # Has experimentation been documented for this project for SR&ED?
 - [ ] Yes (if Yes, describe experiments)
 - [ ] No
-
